@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(annie-spratt-M20ylqCzSZw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name {
+    color: rgb(217, 241, 2);
+}
+
+#name:hover {
+    color: rgb(110, 116, 14);
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: -30rem;
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    margin: 0 2rem;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.container-box {
+    text-align: center;
+}
